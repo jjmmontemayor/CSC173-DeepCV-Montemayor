@@ -56,3 +56,41 @@
 | Optimizer | SGD |
 
 ### Training Code Snippet
+train.py excerpt
+model = YOLO('yolov8n.pt')
+model.train(data='dataset.yaml', epochs=100, imgsz=640)
+
+
+## Experiments & Results
+### Metrics
+| Model | mAP@0.5 | Precision | Recall | Inference Time (ms) |
+|-------|---------|-----------|--------|---------------------|
+| Baseline (YOLOv8n) | 85% | 0.87 | 0.82 | 12 |
+| **Ours (Fine-tuned)** | **92%** | **0.94** | **0.89** | **15** |
+
+![Training Curve](images/loss_accuracy.png)
+
+### Demo
+![Detection Demo](demo/detection.gif)
+[Video: [CSC173_YourLastName_Final.mp4](demo/CSC173_YourLastName_Final.mp4)] [web:41]
+
+## Discussion
+- Strengths: [e.g., Handles occluded trash well]
+- Limitations: [e.g., Low-light performance]
+- Insights: [e.g., Data augmentation boosted +7% mAP] [web:25]
+
+## Ethical Considerations
+- Bias: Dataset skewed toward plastic/metal; rural waste underrepresented
+- Privacy: No faces in training data
+- Misuse: Potential for surveillance if repurposed [web:41]
+
+## Conclusion
+[Key achievements and 2-3 future directions, e.g., Deploy to Raspberry Pi for IoT.]
+
+## Installation
+1. Clone repo: `git clone https://github.com/yourusername/CSC173-DeepCV-YourLastName`
+2. Install deps: `pip install -r requirements.txt`
+3. Download weights: See `models/` or run `download_weights.sh` [web:22][web:25]
+
+**requirements.txt:**
+
