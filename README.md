@@ -17,7 +17,6 @@
 - [Ethical Considerations](#ethical-considerations)
 - [Conclusion](#conclusion)
 - [Installation](#installation)
-- [Usage](#usage)
 - [References](#references)
 
 ## Introduction
