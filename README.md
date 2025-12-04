@@ -93,4 +93,15 @@ model.train(data='dataset.yaml', epochs=100, imgsz=640)
 3. Download weights: See `models/` or run `download_weights.sh` [web:22][web:25]
 
 **requirements.txt:**
+torch>=2.0
+ultralytics
+opencv-python
+albumentations
+
+## References
+[1] Jocher, G., et al. "YOLOv8," Ultralytics, 2023.  
+[2] Deng, J., et al. "ImageNet: A large-scale hierarchical image database," CVPR, 2009. [web:25]
+
+## GitHub Pages
+View this project site: https://yourusername.github.io/CSC173-DeepCV-YourLastName/ [web:32]
 
