@@ -103,5 +103,5 @@ albumentations
 [2] Deng, J., et al. "ImageNet: A large-scale hierarchical image database," CVPR, 2009. [web:25]
 
 ## GitHub Pages
-View this project site: https://yourusername.github.io/CSC173-DeepCV-YourLastName/ [web:32]
+View this project site: https://jjmmontemayor.github.io/CSC173-DeepCV-YourLastName/ [web:32]
 
