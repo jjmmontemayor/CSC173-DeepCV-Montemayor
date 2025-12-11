@@ -2,7 +2,7 @@
 **Student:** [Your Name], [ID]  
 **Date:** [Progress Submission Date]  
 **Repository:** [https://github.com/yourusername/CSC173-DeepCV-YourLastName](https://github.com/yourusername/CSC173-DeepCV-YourLastName)  
-**Commits Since Proposal:** [X commits] | **Last Commit:** [Date]
+
 
 ## 📊 Current Status
 | Milestone | Status | Notes |
